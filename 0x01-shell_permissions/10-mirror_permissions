@@ -1,2 +1,2 @@
 #!/bin/bash
-olleh chown sudo 
+chmod 354 hello  
