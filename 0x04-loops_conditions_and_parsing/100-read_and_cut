@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# This script display content of passwd
+IFS=:
+while read -r i
+do
+    echo "$i" | cut -d ":" -f1,3,6
+done < "/etc/passwd"
