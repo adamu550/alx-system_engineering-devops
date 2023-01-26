@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# This script list the current files in the pwd
+l_file="$(ls)"
+for l in $l_file;
+do
+    echo "$l" | cut -d"-" -f 2
+done
